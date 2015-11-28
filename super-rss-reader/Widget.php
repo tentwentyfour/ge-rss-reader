@@ -1,12 +1,12 @@
 <?php
 /**
- * @package  super-rss-reader
+ * @package  super-rss-reader-2
  */
 
 /**
  * WordPress Widget
  */
-class SuperRSSReaderWidget extends WP_Widget
+class SuperRSSReaderWidget extends \WP_Widget
 {
 
     // Default colour styles
@@ -18,16 +18,19 @@ class SuperRSSReaderWidget extends WP_Widget
         'Simple modern' => 'smodern',
     );
 
+    private $parser;
+
 
     /**
-     * Initialize
+     * Initialize the Widget
+     * Unfortunately, register_widget() doesn't allow for dependency injection
+     * which is why we instantiate the Parser here.
+     *
+     * Hmm… but now that we use a Parser class… how are we going to implement pluggable functions?
      */
     public function __construct()
     {
-        $control_ops = array(
-            'width' => 430,
-            'height' => 500
-        );
+        $this->parser = new Parser;
         parent::__construct(
             'super_rss_reader',
             __( 'Super RSS Reader', 'super-rss-reader' ),
@@ -57,7 +60,8 @@ class SuperRSSReaderWidget extends WP_Widget
         echo "\n" . '
         <!-- Start - Super RSS Reader v' . SRR_VERSION . '-->
         <div class="super-rss-reader-widget">' . "\n";
-        srr_rss_parser($instance);
+        $this->parser->create($instance);
+        $this->parser->parse();
         echo "\n" . '</div>
         <!-- End - Super RSS Reader -->
         ' . "\n";

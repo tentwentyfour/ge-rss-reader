@@ -2,6 +2,8 @@
 
 For lack of a better name…
 
+This plug-in was forked from Aakash Chakravarthy's Super-RSS-Reader after it had not been updated for more than two years.
+
 * Contributors: Aakash Chakravarthy, David Raison (TenTwentyFour)
 * Author URI: http://www.aakashweb.com/, http:www.1024.lu
 * Plugin URI: https://github.com/tentwentyfour/super-rss-reader-2
@@ -12,20 +14,19 @@ For lack of a better name…
 * Tested up to: 4.3.1
 * Stable tag: 3.0
 
-An RSS widget plugin, which displays feeds like news ticker effect with thumbnails, multiple tabbed feeds, customizable color styles and more
+An RSS widget plug-in, which displays feeds like news ticker effect with thumbnails, multiple tabbed feeds, customizable color styles and more
 
 ## Description
 
 Super RSS Reader is jQuery based RSS reader widget, which displays the RSS feeds in the widget in an attractive way. It uses the jQuery easy ticker plugin to add a news ticker like effect to the RSS feeds. Multiple RSS feeds can be added for a single widget and they get separated in tabs.
 
-The plugin is fully customizable with external styles and with some inbuilt color styles. It acts as a perfect replacement for the default RSS widget in WordPress.
+The plug-in is fully customizable with external styles and with some inbuilt color styles. It acts as a perfect replacement for the default RSS widget in WordPress.
 
-## Outlook
+### New features in v3.1
 
-In future versions we're looking to make the plugin more customizable using [pluggable functions](https://codex.wordpress.org/Pluggable_Functions) and several filter hooks.
+* The plug-in has become more customizable using [pluggable functions](https://codex.wordpress.org/Pluggable_Functions) and several filter hooks.
 
-
-### New features in 3.0
+### New features in v3.0
 
 * Added option to set date format
 * Added option to determine whether to place meta information above or below the individual items
@@ -49,13 +50,27 @@ In future versions we're looking to make the plugin more customizable using [plu
 * Can tweak the widget to change the no of visible feed items and more...
 * The jQuery ticker effect is by the [jQuery easy ticker plugin](http://www.aakashweb.com/jquery-plugins/easy-ticker/)
 
+
+### Available Filters
+
+#### srr_item_properties
+
+This filter allows you to filter individual item's properties (author, title, description), before they get passed to the print function.
+To see which properties are passed to the filter function, simply var_dump() the contents of $item_properties.
+To use it, you could use code similar to this:
+
+add_filter('srr_item_properties', function ($item_properties) {
+    $item_properties['title'] = strtolower($item_properties['title']);
+    return $item_properties;
+}, 10, 1);
+
+
 ### Resources
 
-* [Donate](http://bit.ly/srrDonation)
-* [Documentation](http://www.aakashweb.com/wordpress-plugins/super-rss-reader/)
-* [FAQs](http://www.aakashweb.com/faqs/wordpress-plugins/super-rss-reader/)
-* [Support](http://www.aakashweb.com/forum/)
-* [Report Bugs](http://www.aakashweb.com/forum/)
+* [Documentation]()
+* [FAQs]()
+* [Support]()
+* [Report Bugs]()
 
 ## Installation
 
