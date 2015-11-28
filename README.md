@@ -29,12 +29,6 @@ The plug-in is fully customizable with external styles and with some inbuilt col
 * Added option to set date format
 * Added option to determine whether to place meta information above or below the individual items
 
-### New features in v2.5
-
-* Added option to change the title for individual tabs.
-* Support for full or rich description.
-* Revised feed ordering.
-
 ### Features
 
 * jQuery [news ticker like effect](http://www.aakashweb.com/jquery-plugins/easy-ticker/) to the RSS feeds (can turn off or on)
@@ -104,10 +98,15 @@ For more FAQs just check out the [official page](https://github.com/tentwentyfou
 
 ## Changelog
 
+### 3.1
+
+* Pluggable function srr_print
+* srr_item_properties filter hook
+
 ### 3.0
 * Refactored codebase
 * Date_format and meta_placement options
-* New maintainers
+* New name and new maintainers
 
 ### 2.5
 * Added feature to change individual tab titles/names.
