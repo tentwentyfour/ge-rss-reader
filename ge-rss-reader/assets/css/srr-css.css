@@ -38,6 +38,9 @@
     left: 0px;
     right: 0px;
 }
+.srr-warp .srr-list {
+    list-style-type: none;
+}
 .srr-wrap .srr-item{
     border-top: 0px;
     padding: 10px;

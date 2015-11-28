@@ -32,8 +32,8 @@ class GERSSReaderWidget extends \WP_Widget
     {
         $this->parser = new Parser;
         parent::__construct(
-            'super_rss_reader',
-            __( 'Super RSS Reader', 'super-rss-reader' ),
+            'ge_rss_reader',
+            __( 'GE RSS Reader', 'super-rss-reader' ),
             array(
                 'classname' => 'widget_super_rss_reader',
                 'description' => __('Enhanced RSS feed reader widget with advanced features.', 'super-rss-reader')
@@ -58,21 +58,21 @@ class GERSSReaderWidget extends \WP_Widget
 
         echo $before_widget . $title;
         echo "\n" . '
-        <!-- Start - Super RSS Reader v' . SRR_VERSION . '-->
+        <!-- Start - GE RSS Reader v' . SRR_VERSION . '-->
         <div class="super-rss-reader-widget">' . "\n";
         $this->parser->create($instance);
         $this->parser->parse();
         echo "\n" . '</div>
-        <!-- End - Super RSS Reader -->
+        <!-- End - GE RSS Reader -->
         ' . "\n";
         echo $after_widget;
     }
 
     /**
      * Save settings
-     * @param  [type] $new_instance [description]
-     * @param  [type] $old_instance [description]
-     * @return [type]               [description]
+     * @param  Array $new_instance New widget instance
+     * @param  Array $old_instance Previous widget instance
+     * @return Array               Updated instance
      */
     public function update($new_instance, $old_instance)
     {

@@ -134,7 +134,7 @@ class Parser
             // Outer Wrap start
             printf(
                 '<div class="srr-wrap %s srr-style-%s" data-visible="%s" data-speed="%s" %s>
-                    <div>',
+                    <ul class="srr-list">',
                 ($this->ticker['enabled'] == 1) ? 'srr-vticker' : '' ,
                 $this->config['color_style'],
                 $this->ticker['visible_items'],
@@ -157,7 +157,7 @@ class Parser
             }
 
             // Outer wrap end
-            echo "\n\n</div>
+            echo "\n\n</ul>
             </div><!-- .srr-wrap --> \n\n" ;
 
             $rss->__destruct();

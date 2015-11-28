@@ -88,7 +88,7 @@ if (!function_exists('srr_print')) :
     function srr_print($item_properties)
     {
         echo "\n\n\t";
-        echo '<div class="srr-item ' . (($item_properties['index'] % 2 === 0) ? 'even' : 'odd') . '">';
+        echo '<li class="srr-item ' . (($item_properties['index'] % 2 === 0) ? 'even' : 'odd') . '">';
 
         if ($item_properties['meta_placement'] == 0) {
             echo '<div class="srr-meta">';
@@ -129,7 +129,7 @@ if (!function_exists('srr_print')) :
             echo '<p class="srr-summary srr-clearfix">' . $item_properties['desc'] . '</p>';
         }
 
-        echo '</div><!-- .srr-item -->';
+        echo '</li><!-- .srr-item -->';
     }
 
 endif;
