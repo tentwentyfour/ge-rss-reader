@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Super RSS Reader2
+Plugin Name: Super RSS Reader-2
 Plugin URI:  http://github.com/tentwentyfour/super-rss-reader2
 Description: Super RSS Reader-2 is a jQuery based RSS reader widget, which displays the RSS feeds in the widget in an attractive way. It uses the jQuery easy ticker plugin to add a news ticker like effect to the RSS feeds. Multiple RSS feeds can be added for a single widget and they get separated in tabs.
 Version:     3.0
