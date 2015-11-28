@@ -15,15 +15,15 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
 
-#: super-rss-reader/super-rss-reader.php:377
+#: super-rss-reader/super-rss-reader.php:381
 msgid "No items."
 msgstr ""
 
-#: super-rss-reader/super-rss-reader.php:409
+#: super-rss-reader/super-rss-reader.php:469
 msgid "No Title"
 msgstr ""
 
-#: super-rss-reader/super-rss-reader.php:575
+#: super-rss-reader/super-rss-reader.php:683
 msgid "Posted on %s"
 msgstr ""
 
@@ -35,18 +35,34 @@ msgstr ""
 msgid "Enhanced RSS feed reader widget with advanced features."
 msgstr ""
 
-#: super-rss-reader/Widget.php:171
+#: super-rss-reader/Widget.php:174
 msgid "Show Description"
 msgstr ""
 
-#: super-rss-reader/Widget.php:196
+#: super-rss-reader/Widget.php:180
+msgid "Show Title"
+msgstr ""
+
+#: super-rss-reader/Widget.php:187
+msgid "Date format"
+msgstr ""
+
+#: super-rss-reader/Widget.php:206
 msgid "Where to place meta info (author, date)"
 msgstr ""
 
-#: super-rss-reader/Widget.php:213
+#: super-rss-reader/Widget.php:209
+msgid "above"
+msgstr ""
+
+#: super-rss-reader/Widget.php:210
+msgid "below"
+msgstr ""
+
+#: super-rss-reader/Widget.php:228
 msgid "Note: You have enabled \"Full/Rich HTML\" Please make sure that the feed(s) are from trusted sources and do not contain any harmful scripts."
 msgstr ""
 
-#: super-rss-reader/Widget.php:215
+#: super-rss-reader/Widget.php:230
 msgid "If there are some alignment issues in the description, please use custom CSS to fix that."
 msgstr ""
