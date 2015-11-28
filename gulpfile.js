@@ -30,20 +30,20 @@ gulp.task('sass', function (done) {
         }))
         .on('error', standardHandler)
         .pipe(rename({ extname: '.min.css' }))
-        .pipe(gulp.dest('./super-rss-reader/assets/css/'))
+        .pipe(gulp.dest('./ge-rss-reader/assets/css/'))
         .on('end', done);
 });
 
 gulp.task('pot', function () {
-    return gulp.src('super-rss-reader/*.php')
+    return gulp.src('ge-rss-reader/*.php')
         .pipe(sort())
         .pipe(wpPot( {
             domain: 'super-rss-reader',
             destFile:'srr.pot',
-            package: 'super-rss-reader',
+            package: 'ge-rss-reader',
             lastTranslator: 'David Raison <david@tentwentyfour.lu>'
         }))
-        .pipe(gulp.dest('super-rss-reader/languages/'));
+        .pipe(gulp.dest('ge-rss-reader/languages/'));
 });
 
 gulp.task('watch', function () {

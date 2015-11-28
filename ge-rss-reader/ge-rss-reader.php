@@ -62,11 +62,11 @@ add_action('admin_enqueue_scripts', 'srr_admin_enqueue_scripts');
  * Initialize widget
  * @return [type] [description]
  */
-function super_rss_reader_init()
+function ge_rss_reader_init()
 {
-    register_widget('SuperRSSReaderWidget');
+    register_widget('GERSSReaderWidget');
 }
-add_action('widgets_init', 'super_rss_reader_init');
+add_action('widgets_init', 'ge_rss_reader_init');
 
 /**
  * Load text-domain

@@ -6,7 +6,7 @@
 /**
  * WordPress Widget
  */
-class SuperRSSReaderWidget extends \WP_Widget
+class GERSSReaderWidget extends \WP_Widget
 {
 
     // Default colour styles
@@ -180,14 +180,14 @@ class SuperRSSReaderWidget extends \WP_Widget
             <td width="25%"><input id="<?php echo $this->get_field_id('strip_desc');?>" name="<?php echo $this->get_field_name('strip_desc'); ?>" type="text" value="<?php echo $strip_desc; ?>" class="widefat" title="The number of characters to be displayed. Use 0 to disable stripping"/>          </td>
             </tr>
             <tr>
-                <td height="29"><input id="<?php echo $this->get_field_id('show_date'); ?>" type="checkbox"  name="<?php echo $this->get_field_name('show_date'); ?>" value="1" <?php echo $show_date == "1" ? 'checked="checked"' : ""; ?> /></td>
+                <td height="29"><input id="<?php echo $this->get_field_id('show_title'); ?>" type="checkbox"  name="<?php echo $this->get_field_name('show_title'); ?>" value="1" <?php echo $show_title == "1" ? 'checked="checked"' : ""; ?> /></td>
                 <td><label for="<?php echo $this->get_field_id('show_title'); ?>"><?php _e('Show Title', 'super-rss-reader'); ?></label></td>
                 <td><label for="<?php echo $this->get_field_id('strip_title'); ?>">Strip Title</label></td>
                 <td><input id="<?php echo $this->get_field_id('strip_title');?>" name="<?php echo $this->get_field_name('strip_title'); ?>" type="text" value="<?php echo $strip_title; ?>" class="widefat" title="The number of characters to be displayed. Use 0 to disable stripping"/></td>
             </tr>
           <tr>
             <td height="29"><input id="<?php echo $this->get_field_id('show_date'); ?>" type="checkbox"  name="<?php echo $this->get_field_name('show_date'); ?>" value="1" <?php echo $show_date == "1" ? 'checked="checked"' : ""; ?> /></td>
-            <td><label for="<?php echo $this->get_field_id('show_date'); ?>">Show Date</label></td>
+            <td><label for="<?php echo $this->get_field_id('show_date'); ?>"><?php _e('Show Date', 'super-rss-reader'); ?></label></td>
             <td><label for="<?php echo $this->get_field_id('date_format'); ?>"><?php _e('Date format', 'super-rss-reader'); ?></label></td>
             <td><input id="<?php echo $this->get_field_id('date_format');?>" name="<?php echo $this->get_field_name('date_format'); ?>" type="text" value="<?php echo $date_format; ?>" class="widefat" title="Date format. See PHP's date() function for valid format."/></td>
           </tr>
