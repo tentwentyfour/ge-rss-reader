@@ -1,17 +1,18 @@
 # Super RSS Reader 2
 
 For lack of a better name…
-Contributors: Aakash Chakravarthy, David Raison (TenTwentyFour)
-Author URI: http://www.aakashweb.com/, http:www.1024.lu
-Plugin URI: https://github.com/tentwentyfour/super-rss-reader-2
-Original Plugin URI: http://www.aakashweb.com/wordpress-plugins/super-rss-reader/
-Tags: rss, feeds, widget, links, twitter, admin, plugin, feed, posts, page, ticker, thumbnail, atom, jquery
-License: GPLv2 or later
-Requires at least: 2.8
-Tested up to: 4.3.1
-Stable tag: 3.0
 
-An awesome RSS widget plugin, which displays feeds like news ticker effect with thumbnails, multiple tabbed feeds, customizable color styles and more
+* Contributors: Aakash Chakravarthy, David Raison (TenTwentyFour)
+* Author URI: http://www.aakashweb.com/, http:www.1024.lu
+* Plugin URI: https://github.com/tentwentyfour/super-rss-reader-2
+* Original Plugin URI: http://www.aakashweb.com/wordpress-plugins/super-rss-reader/
+* Tags: rss, feeds, widget, links, twitter, admin, plugin, feed, posts, page, ticker, thumbnail, atom, jquery
+* License: GPLv2 or later
+* Requires at least: 2.8
+* Tested up to: 4.3.1
+* Stable tag: 3.0
+
+An RSS widget plugin, which displays feeds like news ticker effect with thumbnails, multiple tabbed feeds, customizable color styles and more
 
 ## Description
 
