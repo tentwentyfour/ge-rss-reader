@@ -57,11 +57,12 @@ This filter allows you to filter individual item's properties (author, title, de
 To see which properties are passed to the filter function, simply var_dump() the contents of $item_properties.
 To use it, you could use code similar to this:
 
+```php
 add_filter('srr_item_properties', function ($item_properties) {
     $item_properties['title'] = strtolower($item_properties['title']);
     return $item_properties;
 }, 10, 1);
-
+```
 
 ### Resources
 
