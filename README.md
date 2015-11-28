@@ -1,24 +1,22 @@
-# Super RSS Reader 2
-
-For lack of a better name…
+# GE RSS Reader Widgets
 
 This plug-in was forked from Aakash Chakravarthy's Super-RSS-Reader after it had not been updated for more than two years.
 
-* Contributors: Aakash Chakravarthy, David Raison (TenTwentyFour)
-* Author URI: http://www.aakashweb.com/, http:www.1024.lu
-* Plugin URI: https://github.com/tentwentyfour/super-rss-reader-2
+* Contributors: David Raison
+* Author URI: http:www.1024.lu
+* Plugin URI: https://github.com/tentwentyfour/ge-rss-reader
 * Original Plugin URI: http://www.aakashweb.com/wordpress-plugins/super-rss-reader/
 * Tags: rss, feeds, widget, links, twitter, admin, plugin, feed, posts, page, ticker, thumbnail, atom, jquery
 * License: GPLv2 or later
 * Requires at least: 2.8
 * Tested up to: 4.3.1
-* Stable tag: 3.0
+* Stable tag: 3.1
 
 An RSS widget plug-in, which displays feeds like news ticker effect with thumbnails, multiple tabbed feeds, customizable color styles and more
 
 ## Description
 
-Super RSS Reader is jQuery based RSS reader widget, which displays the RSS feeds in the widget in an attractive way. It uses the jQuery easy ticker plugin to add a news ticker like effect to the RSS feeds. Multiple RSS feeds can be added for a single widget and they get separated in tabs.
+GE RSS-Reader Widgets is jQuery based RSS reader widget, which displays the RSS feeds in the widget in an attractive way. It uses the jQuery easy ticker plugin to add a news ticker like effect to the RSS feeds. Multiple RSS feeds can be added for a single widget and they get separated in tabs.
 
 The plug-in is fully customizable with external styles and with some inbuilt color styles. It acts as a perfect replacement for the default RSS widget in WordPress.
 
@@ -67,14 +65,14 @@ add_filter('srr_item_properties', function ($item_properties) {
 
 ### Resources
 
-* [Documentation]()
-* [FAQs]()
-* [Support]()
-* [Report Bugs]()
+* [Documentation](https://github.com/tentwentyfour/ge-rss-reader)
+* [FAQs](https://github.com/tentwentyfour/ge-rss-reader/wiki)
+* [Support](https://github.com/tentwentyfour/ge-rss-reader/issues)
+* [Report Bugs](https://github.com/tentwentyfour/ge-rss-reader/issues)
 
 ## Installation
 
-Download and upload the latest version of Super RSS Reader,
+Download and upload the latest version of GE RSS-Reader Widgets,
 
 1. Unzip & upload it to your WordPress site.
 1. Activate the plugin.
@@ -95,13 +93,13 @@ You can use the `super-rss-reader-widget` class in your stylesheet to control th
 
 ### Will the additional ticker effect slows the site ?
 
-No. the additional effect needs only 3.4 Kb of additional file. I think thats not too heavy to slow down the site.
+No, the additional effect needs only 3.4 Kb of additional file. I think that's not too heavy to slow down the site.
 
 ### How to create a tabbed mode or multiple feeds ?
 
-Just enter the RSS feed URLs separated by comma in the widget, the plugin automatically renders the tab.
+Just enter the RSS feed URLs separated by comma in the widget, the plug-in automatically renders the tab.
 
-For more FAQs just check out the [official page](http://www.aakashweb.com/wordpress-plugins/super-rss-reader/).
+For more FAQs just check out the [official page](https://github.com/tentwentyfour/ge-rss-reader).
 
 ## Changelog
 
@@ -122,7 +120,7 @@ For more FAQs just check out the [official page](http://www.aakashweb.com/wordpr
 * Added a new 'Simple modern' color style.
 
 ### 2.3
-* Fixed imcompatibility of other jQuery plugins due to the usage of the latest version of jQuery.
+* Fixed incompatibility of other jQuery plug-ins due to the usage of the latest version of jQuery.
 
 ### 2.2
 * Displays "thumbnail" of the feed item if available.
@@ -135,7 +133,7 @@ For more FAQs just check out the [official page](http://www.aakashweb.com/wordpr
 ### 2.1
 * Added option to open links in new window.
 * Changed the method to include the scripts and styles.
-* Added a new 'Orange' color style.
+* Added a new 'Orange' colour style.
 
 ### 2.0
 * Core code is completely rewritten.
@@ -156,4 +154,4 @@ Version 2.0 is a major and recommended upgrade for previous version users.
 
 * RSS feed reading engine is the inbuilt WordPress's engine
 * The news ticker effect is powered by the [jQuery Easy ticker plugin](http://www.aakashweb.com/jquery-plugins/easy-ticker/)
-* Default color styles are by Aakash Chakravarthy.
+* Default colour styles are by Aakash Chakravarthy.
