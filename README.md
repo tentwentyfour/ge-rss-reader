@@ -1,13 +1,14 @@
-=== Super RSS Reader ===
-Contributors: Aakash Chakravarthy
-Author URI: http://www.aakashweb.com/
-Plugin URI: http://www.aakashweb.com/wordpress-plugins/super-rss-reader/
+=== Super RSS Reader 2 ===
+For lack of a better name…
+Contributors: Aakash Chakravarthy, David Raison (TenTwentyFour)
+Author URI: http://www.aakashweb.com/, http:www.1024.lu
+Plugin URI: https://github.com/tentwentyfour/super-rss-reader-2
+Original Plugin URI: http://www.aakashweb.com/wordpress-plugins/super-rss-reader/
 Tags: rss, feeds, widget, links, twitter, admin, plugin, feed, posts, page, ticker, thumbnail, atom, jquery
 License: GPLv2 or later
-Donate Link: http://bit.ly/srrDonation
 Requires at least: 2.8
-Tested up to: 3.8.1
-Stable tag: 2.5
+Tested up to: 4.3.1
+Stable tag: 3.0
 
 An awesome RSS widget plugin, which displays feeds like news ticker effect with thumbnails, multiple tabbed feeds, customizable color styles and more
 
@@ -18,6 +19,11 @@ Super RSS Reader is jQuery based RSS reader widget, which displays the RSS feeds
 The plugin is fully customizable with external styles and with some inbuilt color styles. It acts as a perfect replacement for the default RSS widget in WordPress.
 
 [Check out the **LIVE DEMO** of the plugin](http://www.aakashweb.com/demos/super-rss-reader/)
+
+= New features in 3.0 =
+
+* Added option to set date format
+* Added option to determine whether to place meta information above or below the individual items
 
 = New features in v2.5 =
 
@@ -93,6 +99,11 @@ For more FAQs just check out the [official page](http://www.aakashweb.com/wordpr
 [More screenshots in Aakash Web](http://www.aakashweb.com/wordpress-plugins/super-rss-reader/)
 
 == Changelog ==
+
+= 3.0 =
+* Refactored codebase
+* Date_format and meta_placement options
+* New maintainers
 
 = 2.5 =
 * Added feature to change individual tab titles/names.
