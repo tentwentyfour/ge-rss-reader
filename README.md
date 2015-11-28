@@ -3,7 +3,7 @@
 This plug-in was forked from Aakash Chakravarthy's Super-RSS-Reader after it had not been updated for more than two years.
 
 * Contributors: David Raison
-* Author URI: http:www.1024.lu
+* Author URI: http://www.1024.lu
 * Plugin URI: https://github.com/tentwentyfour/ge-rss-reader
 * Original Plugin URI: http://www.aakashweb.com/wordpress-plugins/super-rss-reader/
 * Tags: rss, feeds, widget, links, twitter, admin, plugin, feed, posts, page, ticker, thumbnail, atom, jquery
@@ -146,10 +146,6 @@ For more FAQs just check out the [official page](https://github.com/tentwentyfou
 
 ### 0.5
 * Initial version with a flash RSS Reader
-
-## Upgrade Notice
-
-Version 2.0 is a major and recommended upgrade for previous version users.
 
 ## Credits
 
