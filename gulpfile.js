@@ -21,12 +21,12 @@ var standardHandler = function (err){
 gulp.task('default', ['sass', 'pot']);
 
 gulp.task('sass', function (done) {
-    gulp.src('./lib/sass/srr-settings.scss')
+    gulp.src('./lib/sass/*.scss')
         .pipe(sass())
         .on('error', standardHandler)
         .pipe(gulp.dest('./lib/css/'))
         .pipe(minifyCss({
-            keepSpecialComments: 0
+            keepSpecialComments: 1
         }))
         .on('error', standardHandler)
         .pipe(rename({ extname: '.min.css' }))
