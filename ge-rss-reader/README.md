@@ -2,15 +2,16 @@
 
 This plug-in was forked from Aakash Chakravarthy's Super-RSS-Reader after it had not been updated for more than two years.
 
-* Contributors: David Raison
+* Contributors: kwisatz
 * Author URI: http://www.1024.lu
 * Plugin URI: https://github.com/tentwentyfour/ge-rss-reader
 * Original Plugin URI: http://www.aakashweb.com/wordpress-plugins/super-rss-reader/
 * Tags: rss, feeds, widget, links, twitter, admin, plugin, feed, posts, page, ticker, thumbnail, atom, jquery
-* License: GPLv2 or later
 * Requires at least: 2.8
 * Tested up to: 4.3.1
-* Stable tag: 3.1
+* Stable tag: 3.1.1
+* License: GPLv2 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 An RSS widget plug-in, which displays feeds like news ticker effect with thumbnails, multiple tabbed feeds, customizable color styles and more
 
