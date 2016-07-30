@@ -84,13 +84,13 @@ class Parser
                     } else {
                         $rss_title = esc_attr(strip_tags($rss->get_title()));
                     }
-                    sprintf(
+                    printf(
                         '<li data-tab="srr-tab-%d">%s</li>',
                         $rand[$i],
                         $rss_title
                     );
                 } else {
-                    sprintf(
+                    printf(
                         '<li data-tab="srr-tab-%d">Error</li>',
                         $rand[$i]
                     );
